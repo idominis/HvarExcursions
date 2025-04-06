@@ -201,8 +201,8 @@ class Homepage extends MY_Controller {
 		$this->form_validation->set_message('ishuman', "The %s field could not properly validate.");
 
 		// Register API keys at https://www.google.com/recaptcha/admin
-		$siteKey = "6LdwQvYSAAAAAEQmPNaedvFuKTWe1UPSy4nFtqJn";
-		$secret = "6LdwQvYSAAAAAJk59ylQWgrRh_MdoJ6Fjw7OkclQ";
+		$siteKey = "xxx";
+		$secret = "xxx";
 
 		// check reCaptcha
 		require_once(APPPATH."controllers/reCaptcha/recaptchalib.php");
