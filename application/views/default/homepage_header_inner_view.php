@@ -1,10 +1,20 @@
-<div class="he-header-section__headings uk-position-center">
-    <div class="uk-container uk-light">
-        <h1 class="he-header-section__title"><?=lang('homepage-header-title')?></h1>
-        <div class="he-header-section__subtitle"><?=lang('homepage-header-subtitle')?></div>
-        <a class="he-header-section__teaser-btn uk-button uk-button-default uk-button-small uk-hidden@m" href="#jump-to-contact-section" data-uk-scroll>
-            <?= lang('homepage-header-teaser-btn'); ?>
-        </a>
+<div class="he-header-section">
+    <!-- Video pozadina -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="<?= base_url('img/videos/speedboat.mp4'); ?>" type="video/mp4">
+            Vaš preglednik ne podržava video.
+        </video>
+    </div>
+    <!-- Sadržaj preko videa -->
+    <div class="he-header-section__headings uk-position-center">
+        <div class="uk-container uk-light">
+            <h1 class="he-header-section__title"><?=lang('homepage-header-title')?></h1>
+            <div class="he-header-section__subtitle"><?=lang('homepage-header-subtitle')?></div>
+            <a class="he-header-section__teaser-btn uk-button uk-button-default uk-button-small uk-hidden@m" href="#jump-to-contact-section" data-uk-scroll>
+                <?= lang('homepage-header-teaser-btn'); ?>
+            </a>
+        </div>
     </div>
 </div>
 

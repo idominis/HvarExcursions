@@ -11,7 +11,7 @@ class Pricelist_model extends CI_Model {
     }
 
     const SEASON = [
-        'SEASON_YEAR' => 2024, // TODO: Make the year dynamic
+        'SEASON_YEAR' => 2025, // TODO: Make the year dynamic
         'SEASON_START_DAY' => 1, // make sure to have prices defined for entire specified period
         'SEASON_START_MONTH' => 5,
         'SEASON_END_DAY' => 30,

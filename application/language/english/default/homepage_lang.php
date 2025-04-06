@@ -26,14 +26,14 @@ $lang['our-services-item-see-more'] = "See more...";
 
 $lang['excursions'] = "Excursions";
 $lang['excursions-bolt1'] = "Island Hopping";
-$lang['excursions-bolt2'] = "Blue & Green Caves";
-$lang['excursions-bolt3'] = "Wine Tasting & Off-Road";
-$lang['excursions-teaser'] = "Flexible daily excursions, both by boat and road. With us you can discover hidden caves, magnificent bird's eye views, swimming spots in private coves throughout the islands of Brač, Hvar, Korčula, Pakleni Islands, Vis, etc. And along the way, experience Dalmatian world-renowned wines and cuisine. The list of adventures we provide is endless";
+$lang['excursions-bolt2'] = "Blue & Green Cave";
+$lang['excursions-bolt3'] = "Golden Horn Beach";
+$lang['excursions-teaser'] = "Flexible daily excursions by our comfortable boats. With us you can discover hidden caves, magnificent bird's eye views, swimming spots in private coves throughout the islands of Brač, Hvar, Korčula, Pakleni Islands, Vis, etc. And along the way, experience Dalmatian world-renowned wines and cuisine. The list of adventures we provide is endless";
 
 $lang['rentals'] = "Rentals";
-$lang['rentals-bolt1'] = "Speedboats & boats";
-$lang['rentals-bolt2'] = "Cars & Jeeps";
-$lang['rentals-bolt3'] = "Scooters & Bikes";
+$lang['rentals-bolt1'] = "Speedboats & Boats";
+$lang['rentals-bolt2'] = "Cars & Scooters";
+$lang['rentals-bolt3'] = "Wakeboard & Water Ski";
 $lang['rentals-teaser'] = "Hire boats, speedboats, RIB / inflatable boats, cars, jeeps and scooters... Yes we have many rental options for you to choose from. Our boat rentals can come with a local professional skipper or you may rent solely on your own. Please inquire with us for best price possible. We guarantee a competitive price and offer high quality vehicles";
 
 $lang['transfers'] = "Transfers";
