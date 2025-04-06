@@ -32,7 +32,8 @@ $lang['rentals-heading-cars'] = 'Rent a Car';
 //$lang['rentals-heading-bikes'] = 'Bike rent';
 
 $lang['rentals-header-title'] = 'Hvar Rentals';
-$lang['rentals-header-subtitle'] = 'Save from 5% for booking online + 5% additional early-bird discount';
+// $lang['rentals-header-subtitle'] = 'Save from 5% for booking online + 5% additional early-bird discount!';
+$lang['rentals-header-subtitle'] = 'We are at your disposal for any information you may need!';
 $lang['rentals-btn-submit'] = 'Show';
 $lang['rentals-fld-date-from'] = 'Date from';
 $lang['rentals-fld-date-to'] = 'To';
