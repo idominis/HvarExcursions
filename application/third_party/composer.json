@@ -1,0 +1,14 @@
+{
+    "name": "hvarexcursions.com/web",
+    "description": "Website for hvarexcursions.com",
+    "config": {
+        "vendor-dir": "vendor",
+        "platform": {
+            "php": "7.3.5"
+        }
+    },
+    "require": {
+        "google/apiclient": "^2.0",
+        "asimlqt/php-google-spreadsheet-client": "2.*"
+    }
+}

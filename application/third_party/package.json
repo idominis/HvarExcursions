@@ -1,0 +1,26 @@
+{
+  "name": "hvarexcursions.com",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cp -r ./node_modules/uikit/src/images ../../public/images",
+    "compile-all": "yarn webpack && yarn less",
+    "watch-all": "yarn webpack:watch && yarn less:watch",
+    "less": "yarn lessc ../../../assets/less/bundle.less ../../public/dist/bundle.css --compress",
+    "less:watch": "yarn less-watch-compiler ../../../assets/less ../../public/dist --source-map",
+    "webpack": "./node_modules/.bin/webpack --env.NODE_ENV=production",
+    "webpack:watch": "./node_modules/.bin/webpack --mode development --devtool source-map --env.NODE_ENV=development"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.2",
+    "jquery": "^3.4.1",
+    "uikit": "^3.1.5"
+  },
+  "devDependencies": {
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}

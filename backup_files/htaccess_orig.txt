@@ -1,0 +1,68 @@
+# HOSTENS (11-2021) - Only for 'production' - Subdomain redirect e.g. addon-domain.domain.com -> addon-domain.com
+RewriteCond %{HTTP_HOST} ^hvarexcursions\.uxcessible\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hvarexcursions\.uxcessible\.com$
+RewriteRule .* "https\:\/\/www\.hvarexcursions\.com\/" [R=301,L]
+
+<IfModule mod_rewrite.c>
+
+	# .htaccess are slow, if you can configure this directly on server, would be the best
+	# to convert it for nginx: http://winginx.com/htaccess
+
+    RewriteEngine On
+    Options +FollowSymLinks 
+    RewriteBase /
+    #RewriteBase /subfolder/
+
+    ### SEO - Canonicalize codeigniter URLs - not to share pagerank to double links
+    ###########################################################################
+
+    # Enforce https - https://www.hostens.com/knowledgebase/how-to-redirect-traffic-from-http-to-https/
+    RewriteEngine On
+    RewriteCond %{HTTPS} !^on$
+    RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+     
+    # Enforce www
+    # If you have subdomains, you can add them to (www|xxx)
+    # the list using the "|" (OR) regex operator
+    RewriteCond %{HTTP_HOST} !^$
+	RewriteCond %{HTTP_HOST} !^(www|local)\. [NC]
+	RewriteCond %{HTTPS}s ^on(s)|
+	RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+ 
+    # Enforce NO www
+    #RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+	#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+    # Redirect index.php and default controller (you need to edit this) to "/". This is to prevent duplicated
+	# Content. ( /welcome/index , index.php => /) --> (only root) SOLVED already MY_LANG.php
+	# RewriteRule ^(welcome(/index)?|index(\.php)?)/?$ / [L,R=301]
+
+	# Remove /index/ segment on the URL. Default controller's method
+	RewriteRule ^(.*)/index/? $1 [L,R=301]
+ 
+    # Removes trailing slashes (prevents SEO duplicate content issues)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)(/+)$ $1 [L,R=301]
+
+    # Remove Multiple slashes in betweeen
+	RewriteCond %{REQUEST_URI} ^(.*)//(.*)$
+	RewriteRule . %1/%2 [R=301,L]
+
+    ### Codeigniter - hide index.php
+    ###########################################################################
+
+    # Checks to see if the user is attempting to access a valid file (image, css..)
+    # Or else send the request to index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+	# If we don't have mod_rewrite installed, all 404's
+    # can be sent to index.php, and everything works as normal.
+    ErrorDocument 404 /index.php
+</IfModule> 
+
