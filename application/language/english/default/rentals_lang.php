@@ -32,7 +32,7 @@ $lang['rentals-heading-cars'] = 'Rent a Car';
 //$lang['rentals-heading-bikes'] = 'Bike rent';
 
 $lang['rentals-header-title'] = 'Hvar Rentals';
-// $lang['rentals-header-subtitle'] = 'Save from 5% for booking online + 5% additional early-bird discount!';
+//$lang['rentals-header-subtitle'] = 'Save from 5% for booking online + 5% additional early-bird discount';
 $lang['rentals-header-subtitle'] = 'We are at your disposal for any information you may need!';
 $lang['rentals-btn-submit'] = 'Show';
 $lang['rentals-fld-date-from'] = 'Date from';
@@ -65,7 +65,7 @@ $lang['rentals-booking-link-change-dates'] = 'or try {{$btnOpenTag}}{{$dateTxt}}
 // RENTAL ITEMS
 // =================================================================
 $lang['mariner150hp-title'] = 'Mariner 150hp';
-$lang['mariner150hp-text'] = "Rent a highly stable RIB (rigid-hulled inflatable boat) speedboat to handle even the roughest parts of Adriatic sea. Being  equipped with audio system (radio, USB and Aux-In), Garmin GPS and cozy new cushions it's going to bring you the best possible naval experience. It is a boat for those requiring safe and comfortable transportation. It's perfect for exploring Pakleni Islands, Vis, Blue Cave and Green Cave";
+$lang['mariner150hp-text'] = "Rent a highly stable RIB (rigid-hulled inflatable boat) speedboat to handle even the roughest parts of Adriatic sea. Being  is not equipped with audio system but if you need we can provide Bluetooth speaker. And there are cozy new cushions it's going to bring you the best possible naval experience. It is a boat for those requiring safe and comfortable transportation. It's perfect for exploring Pakleni Islands, Vis, Blue Cave and Green Cave";
 $lang['mariner150hp-specs'] = 'Length: %s%s%s%sEngine: %sSuzuki %s%s%sMax. %s%s passengers%s';
 $lang['mariner150hp-engine'] = '150hp';
 $lang['mariner150hp-length'] = '6.90 m (~23′)';
@@ -100,12 +100,40 @@ $lang['solemar-oasi-engine-special'] = '2x300hp';
 $lang['solemar-oasi-length'] = '9.85 m (~32′)';
 $lang['solemar-oasi-passengers'] = '12';
 
-$lang['solemar150hp-title'] = 'Solemar 150hp';
-$lang['solemar150hp-text'] = "Rent our most comfortable small RIB (rigid-hulled inflatable boat) speedboat. Do you need a spacious cozy sun deck both on front and rear sides? Don't miss the chance to enjoy the sun to the maximum! With the equipment such as radio, USB, CD and Aux-In the fun is guaranteed. It's ideal for exploring Pakleni Islands, Vis, Blue Cave, Green Cave, Korčula, Dubrovnik, Split, Trogir and etc";
-$lang['solemar150hp-specs'] = 'Length: %s%s%s%sEngine: %sYamaha %s%s%sMax. %s%s passengers%s';
-$lang['solemar150hp-engine'] = '150hp';
-$lang['solemar150hp-length'] = '7.00 m (~23′)';
-$lang['solemar150hp-passengers'] = '10';
+// $lang['solemar150hp-title'] = 'Solemar 150hp';
+// $lang['solemar150hp-text'] = "Rent our most comfortable small RIB (rigid-hulled inflatable boat) speedboat. Do you need a spacious cozy sun deck both on front and rear sides? Don't miss the chance to enjoy the sun to the maximum! With the equipment such as radio, USB, CD and Aux-In the fun is guaranteed. It's ideal for exploring Pakleni Islands, Vis, Blue Cave, Green Cave, Korčula, Dubrovnik, Split, Trogir and etc";
+// $lang['solemar150hp-specs'] = 'Length: %s%s%s%sEngine: %sYamaha %s%s%sMax. %s%s passengers%s';
+// $lang['solemar150hp-engine'] = '150hp';
+// $lang['solemar150hp-length'] = '7.00 m (~23′)';
+// $lang['solemar150hp-passengers'] = '10';
+
+$lang['bsc175hp-title'] = 'BSC 175hp';
+$lang['bsc175hp-text'] = "Experience the thrill of our newest RIB speedboat, the BSC 65, featuring a spacious and cozy sun deck on both the front and rear. Don't miss the opportunity to soak up the sun to the fullest! Equipped with a radio, USB, CD, and Aux-In, endless fun is guaranteed. This boat is perfect for exploring the stunning Pakleni Islands, Vis, Blue Cave, Green Cave, Korčula, Dubrovnik, Split, Trogir, and beyond. Additionally, the BSC 65 is equipped with GPS, Sonar, and a top-notch sound system to enhance your adventure.";
+$lang['bsc175hp-specs'] = 'Length: %s%s%s%sEngine: %sYamaha %s%s%sMax. %s%s passengers%s';
+$lang['bsc175hp-engine'] = '175hp';
+$lang['bsc175hp-length'] = '7.00 m (~23′)';
+$lang['bsc175hp-passengers'] = '10';
+
+$lang['solemar175hp-title'] = 'Solemar 175hp';
+$lang['solemar175hp-text'] = "Rent our most comfortable small RIB (rigid-hulled inflatable boat) speedboat. Do you need a spacious cozy sun deck both on front and rear sides? Don't miss the chance to enjoy the sun to the maximum! With the equipment such as radio, USB, CD and Aux-In the fun is guaranteed. It's ideal for exploring Pakleni Islands, Vis, Blue Cave, Green Cave, Korčula, Dubrovnik, Split, Trogir and etc";
+$lang['solemar175hp-specs'] = 'Length: %s%s%s%sEngine: %sYamaha %s%s%sMax. %s%s passengers%s';
+$lang['solemar175hp-engine'] = '175hp';
+$lang['solemar175hp-length'] = '7.00 m (~23′)';
+$lang['solemar175hp-passengers'] = '10';
+
+$lang['solemar200hp-title'] = 'Solemar 200hp';
+$lang['solemar200hp-text'] = "Rent our most comfortable small RIB (rigid-hulled inflatable boat) speedboat with more powerful engine. Do you need a spacious cozy sun deck both on front and rear sides? Don't miss the chance to enjoy the sun to the maximum! With the equipment such as radio, USB, CD and Aux-In the fun is guaranteed. It's ideal for exploring Pakleni Islands, Vis, Blue Cave, Green Cave, Korčula, Dubrovnik, Split, Trogir and etc";
+$lang['solemar200hp-specs'] = 'Length: %s%s%s%sEngine: %sYamaha %s%s%sMax. %s%s passengers%s';
+$lang['solemar200hp-engine'] = '200hp';
+$lang['solemar200hp-length'] = '7.00 m (~23′)';
+$lang['solemar200hp-passengers'] = '10';
+
+$lang['scar150hp-title'] = 'Scar Next 150hp';
+$lang['scar150hp-text'] = "Introducing the SCAR Next 150HP - an exciting addition to our boat rental and tours fleet. This brand-new open boat from the renowned Italian shipyard, SCAR Marine, offers a perfect blend of style, versatility, and performance. Experience the thrill and elegance of the SCAR Next 150HP as you explore the beautiful waters of Hvar. Whether you're seeking relaxation, adventure, or both, this boat is the perfect choice for an unforgettable day on the sea.";
+$lang['scar150hp-specs'] = 'Length: %s%s%s%sEngine: %sHonda %s%s%sMax. %s%s passengers%s';
+$lang['scar150hp-engine'] = '150hp';
+$lang['scar150hp-length'] = '6.50 m (~21′)';
+$lang['scar150hp-passengers'] = '8';
 
 $lang['maestral150hp-title'] = 'Maestral-650 150hp';
 $lang['maestral150hp-text'] = "Rent an economical RIB (rigid-hulled inflatable boat) speedboat that offers cozy sun deck at the front and little shady places behind the wheel. It is equipped with audio system (radio, USB and Aux-In). This boat offers a great balance between rental price, engine power and gas consumption. It's ideal for chilling on the beach or cruising around the island and further";
@@ -129,7 +157,7 @@ $lang['zodiac60hp-length'] = '4.80 m (~16′)';
 $lang['zodiac60hp-passengers'] = '5-6';
 
 $lang['marinelo60hp-title'] = 'Marinelo 60hp';
-$lang['marinelo60hp-text'] = 'Rent our brand new motorboat. It is equipped with audio system (radio, USB and Aux-In) and lots of space to hang around and enjoy the best of your holiday. It offers economical rent prices and gas consumption';
+$lang['marinelo60hp-text'] = 'Rent our brand new motorboat. It is not equipped with audio system (but if you need, we can provide Bluetoothspeaker for you) and lots of space to hang around and enjoy the best of your holiday. It offers economical rent prices and gas consumption';
 $lang['marinelo60hp-specs'] = 'Length: %s%s%s%sEngine: %sYamaha %s%s%sMax. %s%s passengers%s';
 $lang['marinelo60hp-engine'] = '60hp';
 $lang['marinelo60hp-length'] = '5.30 m (~17′)';
@@ -138,6 +166,10 @@ $lang['marinelo60hp-passengers'] = '5-6';
 $lang['searay-sundancer-320-title'] = 'Sea Ray Sundancer 320';
 $lang['searay-sundancer-320-text'] = 'The Sea Ray Sundancer is sure to earn jealous stares because it once again redefines what a modern express cruiser should be: sleek and distinctive exterior; inviting and thoughtful interior; flexible and intuitive entertaining spaces; and innovative features and amenities. The fuel and the crew are included for the most trips';
 $lang['searay-sundancer-320-specs'] = 'Length: 12.00 m (~39′)<br>Engine: 2x310hp<br>Max. 12+2 passengers';
+
+$lang['riviera-fly-37-title'] = 'Riviera Fly 37';
+$lang['riviera-fly-37-text'] = 'Riviera Fly is sure to earn jealous stares because it once again redefines what a modern express cruiser should be: sleek and distinctive exterior; inviting and thoughtful interior; flexible and intuitive entertaining spaces; and innovative features and amenities. The fuel and the crew are included for the most trips';
+$lang['riviera-fly-37-specs'] = 'Length: 12.00 m (~37′)<br>Engine: 2x310hp<br>Max. 12+2 passengers';
 
 /*
 
@@ -181,19 +213,22 @@ $lang['boat5hp-specs'] = 'Engine: 5hp<br>Max. 6 passengers';
 */
 
 
-$lang['boat15hp-title'] = 'Boat Val 8hp';
-$lang['boat15hp-text'] = 'Rent a budget friendly boat that compromises between basic boat and speedboat with all-day fuel included in the rental price. Perfect for carefree cruise around Pakleni Islands and nearby Hvar beaches';
-$lang['boat15hp-specs'] = 'Engine: 8hp<br>Max. 6 passengers';
+// $lang['boat15hp-title'] = 'Boat Val 8hp';
+// $lang['boat15hp-text'] = 'Rent a budget friendly boat that compromises between basic boat and speedboat with all-day fuel included in the rental price. Perfect for carefree cruise around Pakleni Islands and nearby Hvar beaches';
+// $lang['boat15hp-specs'] = 'Engine: 8hp<br>Max. 6 passengers';
 
-$lang['adria-2020-title'] = 'Boat Adria 20hp';
-$lang['adria-2020-text'] = "Rent a small cruise boat with 20hp engine and the steering wheel. Adria boat is a great choice if you are not interested in speedboats but yet not into smaller boats with less power and no steering wheel";
-$lang['adria-2020-specs'] = 'Engine: 20hp<br>Max. 5 passengers';
+// $lang['adria-2020-title'] = 'Boat Adria 20hp';
+// $lang['adria-2020-text'] = "Rent a small cruise boat with 20hp engine and the steering wheel. Adria boat is a great choice if you are not interested in speedboats but yet not into smaller boats with less power and no steering wheel";
+// $lang['adria-2020-specs'] = 'Engine: 20hp<br>Max. 5 passengers';
 
-$lang['betina-title'] = 'Boat Betina 30hp';
-//$lang['betina-text'] = "Rent a small cruise boat with powerful 30hp engine and the steering wheel. Betina boat is a perfect compromise between basic boat and speedboat as it offers as much as three times more power. This boat also offers a great value for the price because of a fuel included in the price (Hint: Included fre-of-charge 12L of fuel which is enough for a tour around Pakleni Islands. Shall there be extra fuel spent it will be charged in addition). It's ideal for an enjoyable cruise around Pakleni Islands and nearby Hvar beaches";
-$lang['betina-text'] = "Rent a small cruise boat with powerful 30hp engine and the steering wheel. Betina boat is a perfect compromise between basic boat and speedboat as it offers as much as three times more power. This boat also offers a great value for the price because of all-day fuel included in the price. It's ideal for an enjoyable cruise around Pakleni Islands and nearby Hvar beaches";
-$lang['betina-specs'] = 'Length: 4.80 m (~16′)<br>Engine: 30hp<br>Max. 5 passengers';
+// $lang['betina-title'] = 'Boat Betina 30hp';
+// //$lang['betina-text'] = "Rent a small cruise boat with powerful 30hp engine and the steering wheel. Betina boat is a perfect compromise between basic boat and speedboat as it offers as much as three times more power. This boat also offers a great value for the price because of a fuel included in the price (Hint: Included fre-of-charge 12L of fuel which is enough for a tour around Pakleni Islands. Shall there be extra fuel spent it will be charged in addition). It's ideal for an enjoyable cruise around Pakleni Islands and nearby Hvar beaches";
+// $lang['betina-text'] = "Rent a small cruise boat with powerful 30hp engine and the steering wheel. Betina boat is a perfect compromise between basic boat and speedboat as it offers as much as three times more power. This boat also offers a great value for the price because of all-day fuel included in the price. It's ideal for an enjoyable cruise around Pakleni Islands and nearby Hvar beaches";
+// $lang['betina-specs'] = 'Length: 4.80 m (~16′)<br>Engine: 30hp<br>Max. 5 passengers';
 
+$lang['nautica-500-title'] = 'Boat Nautica 500 30hp';
+$lang['nautica-500-text'] = "Rent a small cruise boat with powerful 30hp engine and the steering wheel. Nautica boat is a perfect compromise between basic boat and speedboat as it offers as much as three times more power. This boat also offers a great value for the price because of all-day fuel included in the price. It's ideal for an enjoyable cruise around Pakleni Islands and nearby Hvar beaches";
+$lang['nautica-500-specs'] = 'Length: 4.80 m (~16′)<br>Engine: 30hp<br>Max. 5 passengers';
 
 
 
@@ -209,9 +244,13 @@ $lang['piaggio-liberty-title'] = 'Piaggio Liberty 50ccm';
 $lang['piaggio-liberty-text'] = "This quality scooter from Piaggio is a great choice for exploring the narrow streets and hidden coves of the Hvar Island. The low fuel consumption makes it affordable for anyone's budget";
 $lang['piaggio-liberty-specs'] = 'Engine: 50ccm<br>Max. 2 passengers';
 
+$lang['aprilia-sr-title'] = 'Aprilia SR 50ccm';
+$lang['aprilia-sr-text'] = "This quality scooter from Aprilia is a great choice for exploring the narrow streets and hidden coves of the Hvar Island. The low fuel consumption makes it affordable for anyone's budget";
+$lang['aprilia-sr-specs'] = 'Engine: 50ccm<br>Max. 2 passengers';
+
 $lang['honda-vision-title'] = 'Honda Vision 110ccm';
 $lang['honda-vision-text'] = "Economical, efficient and easy to ride. Rent this scooter if you want to explore Hvar Island effortlessly";
-$lang['honda-vision-specs'] = 'Engine: 150ccm<br>Max. 2 passengers';
+$lang['honda-vision-specs'] = 'Engine: 110ccm<br>Max. 2 passengers';
 
 $lang['x-enter-title'] = 'Yamaha X-Enter 150ccm';
 $lang['x-enter-text'] = "Powerful new high-quality scooter that will take you anywhere you want to go. Rental of this scooter will allow you to discover hidden beauties of Hvar a conventional tourist can't find so easy";
@@ -223,19 +262,21 @@ $lang['bmw-text'] = 'Exclusive car that can be rented only with a driver. Fully 
 $lang['bmw-specs'] = 'Engine: 3.2 diesel 163hp<br>Max. 5 passengers';
 */
 
-/*
-$lang['smart-title'] = 'Smart (semi-automatic)';
+$lang['smart-title'] = 'Smart (automatic)';
 $lang['smart-text'] = "Rent a small air-conditioned car with the semi-automatic transmission. It's ideal for troubleless parking and exploring the narrow streets of Hvar on hot sunny days";
 $lang['smart-specs'] = 'Engine: 1.0l - 70hp <br>Max. 2 passengers';
-*/
 
-$lang['peugot107-title'] = 'Peugeot 107';
-$lang['peugot107-text'] = "Rent a small air-conditioned car ideal for troubleless parking and exploring the narrow streets of Hvar on hot sunny days";
-$lang['peugot107-specs'] = 'Engine: 1.0l - 68hp<br>5 doors<br>Max. 4-5 passengers';
+// $lang['peugot107-title'] = 'Peugeot 107';
+// $lang['peugot107-text'] = "Rent a small air-conditioned car ideal for troubleless parking and exploring the narrow streets of Hvar on hot sunny days";
+// $lang['peugot107-specs'] = 'Engine: 1.0l - 68hp<br>5 doors<br>Max. 4-5 passengers';
 
-$lang['vw-polo-title'] = 'Volkswagen Polo';
-$lang['vw-polo-text'] = "Rent an economic diesel car ideal for worry-free island exploring. It has a lot of equipment such as front and side airbags, ABS, electronic windows, air-conditioning, USB + Aux radio etc.";
-$lang['vw-polo-specs'] = 'Engine: 1.9l - 64hp<br>3 doors<br>Max. 4-5 passengers';
+// $lang['vw-polo-title'] = 'Volkswagen Polo';
+// $lang['vw-polo-text'] = "Rent an economic diesel car ideal for worry-free island exploring. It has a lot of equipment such as front and side airbags, ABS, electronic windows, air-conditioning, USB + Aux radio etc.";
+// $lang['vw-polo-specs'] = 'Engine: 1.9l - 64hp<br>3 doors<br>Max. 4-5 passengers';
+
+$lang['vw-up-title'] = 'Volkswagen Up!';
+$lang['vw-up-text'] = "Rent a small air-conditioned car ideal for troubleless parking and exploring the narrow streets of Hvar on hot sunny days";
+$lang['vw-up-specs'] = 'Engine: 1.0l - 60hp<br>3 doors<br>Max. 4 passengers';
 
 /*
 $lang['jeep-title'] = 'Jeep Nissan Terrano';
